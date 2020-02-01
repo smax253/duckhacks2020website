@@ -499,6 +499,15 @@ h6 {
   width: 50%;
 }
 
+.section-header-light h3{
+  font-size: 36px;
+  color: #292929;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+}
+
 /* Section with background
 --------------------------------*/
 
@@ -998,9 +1007,7 @@ h6 {
   background-color: #1bb1dc;
 }
 
-#clients h3{
-  color: #292929
-}
+
 
 /* Pricing Section
 --------------------------------*/
