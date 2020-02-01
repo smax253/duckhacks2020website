@@ -31,6 +31,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  color: #EDEDED;
 }
 
 h1,
@@ -473,7 +474,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #413e66;
+  color: #FFFF38;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -485,7 +486,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #535074;
+  color: #EDEDED;
   width: 50%;
 }
 
@@ -498,82 +499,54 @@ h6 {
 
 /* About Us Section
 --------------------------------*/
-
-#about {
-  padding: 80px 0;
+#why-us {
+  padding: 60px 0;
 }
 
-#about .about-content {
+#why-us .why-us-content .features {
+  margin: 0 0 15px 0;
+  padding: 0;
+  transition: 0.3s ease-in-out;
+}
+
+#why-us .why-us-content .features i {
+  font-size: 36px;
+  float: left;
+}
+
+#why-us .why-us-content .features h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 56px;
+  color: #FFFF38;
+  margin-bottom: 5px;
+}
+
+#why-us .why-us-content .features p {
+  font-size: 16px;
+  margin-left: 56px;
+  color: #555186;
+  color: #EDEDED;
+}
+
+#why-us .counters {
   padding-top: 40px;
 }
 
-#about .about-content h2 {
-  color: #413e66;
+#why-us .counters span {
   font-family: "Comfortaa", sans-serif;
-  font-weight: 700;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #ff4d4d;
 }
 
-#about .about-content h3 {
-  color: #696592;
-  font-weight: 400;
-  font-size: 22px;
-  font-style: italic;
-}
-
-#about .about-content ul {
-  list-style: none;
+#why-us .counters p {
   padding: 0;
-}
-
-#about .about-content ul li {
-  padding-bottom: 10px;
-}
-
-#about .about-content ul li i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #1bb1dc;
-}
-
-#about .about-img {
-  position: relative;
-  margin: 30px 30px 30px 30px;
-}
-
-#about .about-img img {
-  width: 100%;
-  border: 8px solid #fff;
-  transition: .5s;
-}
-
-#about .about-img img:hover {
-  width: 100%;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-
-#about .about-img::before {
-  position: absolute;
-  left: -31px;
-  top: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
-}
-
-#about .about-img::after {
-  position: absolute;
-  right: -31px;
-  bottom: -30px;
-  width: 90%;
-  height: 92%;
-  z-index: -1;
-  content: '';
-  background-color: #ebf1fa;
-  transition: .5s;
+  margin: 0 0 20px 0;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+  color: #8a87b6;
 }
 
 /* Services Section
@@ -636,57 +609,7 @@ h6 {
   text-align: left;
 }
 
-/* Why Us Section
---------------------------------*/
 
-#why-us {
-  padding: 60px 0;
-}
-
-#why-us .why-us-content .features {
-  margin: 0 0 15px 0;
-  padding: 0;
-  transition: 0.3s ease-in-out;
-}
-
-#why-us .why-us-content .features i {
-  font-size: 36px;
-  float: left;
-}
-
-#why-us .why-us-content .features h4 {
-  font-size: 24px;
-  font-weight: 600;
-  margin-left: 56px;
-  color: #413e66;
-  margin-bottom: 5px;
-}
-
-#why-us .why-us-content .features p {
-  font-size: 16px;
-  margin-left: 56px;
-  color: #555186;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Comfortaa", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
-  color: #555186;
-}
-
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Comfortaa", sans-serif;
-  font-size: 14px;
-  color: #8a87b6;
-}
 
 /* Call To Action Section
 --------------------------------*/
