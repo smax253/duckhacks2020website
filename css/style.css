@@ -494,7 +494,13 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: #911313;
+}
+.section-bg2{
+  background: #B12929;
+}
+.section-bg3{
+  background: #8a8a8a;
 }
 
 /* About Us Section
@@ -607,6 +613,7 @@ h6 {
   line-height: 28px;
   margin-bottom: 0;
   text-align: left;
+  color: #111;
 }
 
 
