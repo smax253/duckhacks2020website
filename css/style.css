@@ -172,7 +172,7 @@ h6 {
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: #292929;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -193,7 +193,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #413e66;
+  color: #911313;
   text-decoration: none;
 }
 
@@ -215,7 +215,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #292929;
   background-size: cover;
 }
 
@@ -287,7 +287,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #FFFF38;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -299,7 +299,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #911313;
   text-decoration: none;
 }
 
@@ -481,11 +481,54 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
-.section-header h3 {
+
+.section-header_new h1 {
+
+  font-size: 76px;
+  color: #FFFF38;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+
+}
+
+.section-header_new h2 {
+
   font-size: 36px;
   color: #FFFF38;
   text-align: center;
   font-weight: 700;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+
+}
+
+
+.section-header_new  h3 {
+  font-size: 30px;
+  color: #FFFF38;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+}
+
+
+.section-header_new h4 {
+  font-size: 40px;
+  color: #FFFF38;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.section-header h3 {
+  font-size: 36px;
+  color: #FFFF38;
+  text-align: center;
+  font-weight: 450;
   position: relative;
   font-family: "Comfortaa", sans-serif;
 }
@@ -518,7 +561,7 @@ h6 {
   background: #B12929;
 }
 .section-bg3{
-  background: #8a8a8a;
+  background: #292929;
 }
 .section-bg4{
   background: #292929;
@@ -565,7 +608,7 @@ h6 {
   font-weight: bold;
   font-size: 48px;
   display: block;
-  color: #ff4d4d;
+  color: #911313;
 }
 
 #why-us .counters p {
