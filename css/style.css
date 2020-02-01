@@ -1199,7 +1199,7 @@ h6 {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #EDEDED;
 }
 
 #faq #faq-list a.collapsed i::before {
