@@ -262,6 +262,15 @@ h6 {
   /* Deep Drop Down */
 }
 
+.home_screen_text {
+  text-align: center;
+   position: relative;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
 .main-nav,
 .main-nav * {
   margin: 0;
@@ -488,6 +497,15 @@ h6 {
   padding-bottom: 60px;
   color: #EDEDED;
   width: 50%;
+}
+
+.section-header-light h3{
+  font-size: 36px;
+  color: #292929;
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: "Comfortaa", sans-serif;
 }
 
 /* Section with background
@@ -989,9 +1007,7 @@ h6 {
   background-color: #1bb1dc;
 }
 
-#clients h3{
-  color: #292929
-}
+
 
 /* Pricing Section
 --------------------------------*/
