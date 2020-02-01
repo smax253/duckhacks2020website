@@ -262,6 +262,15 @@ h6 {
   /* Deep Drop Down */
 }
 
+.home_screen_text {
+  text-align: center;
+   position: relative;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   -webkit-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
+
 .main-nav,
 .main-nav * {
   margin: 0;
