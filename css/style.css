@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #292929;
+  background: #EDEDED;
   color: #444;
   font-family: "Montserrat", sans-serif;
 }
@@ -502,6 +502,9 @@ h6 {
 .section-bg3{
   background: #8a8a8a;
 }
+.section-bg4{
+  background: #292929;
+}
 
 /* About Us Section
 --------------------------------*/
@@ -984,6 +987,10 @@ h6 {
 
 #clients .owl-dot.active {
   background-color: #1bb1dc;
+}
+
+#clients h3{
+  color: #292929
 }
 
 /* Pricing Section
