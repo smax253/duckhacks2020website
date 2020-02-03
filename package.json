@@ -1,0 +1,25 @@
+{
+  "name": "duckhacks2020website",
+  "version": "1.0.0",
+  "description": "Static webpage for DuckHacks 2020 Hackathon at Stevens",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smax253/duckhacks2020website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smax253/duckhacks2020website/issues"
+  },
+  "homepage": "https://github.com/smax253/duckhacks2020website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
