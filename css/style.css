@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #EDEDED;
+  background: #ededed;
   color: #444;
   font-family: "Montserrat", sans-serif;
 }
@@ -31,7 +31,7 @@ a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
-  color: #EDEDED;
+  color: #ededed;
 }
 
 h1,
@@ -193,7 +193,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #911313;
+  color: #ffff38;
   text-decoration: none;
 }
 
@@ -215,7 +215,12 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #292929;
+  /* background: #292929; */
+  background: linear-gradient(
+    0deg,
+    rgba(145, 19, 19, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
   background-size: cover;
 }
 
@@ -264,11 +269,11 @@ h6 {
 
 .home_screen_text {
   text-align: center;
-   position: relative;
-   top: 50%;
-   -ms-transform: translateY(-50%);
-   -webkit-transform: translateY(-50%);
-   transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .main-nav,
@@ -287,7 +292,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #FFFF38;
+  color: #ffff38;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -481,43 +486,36 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
-
 .section-header_new h1 {
-
   font-size: 76px;
-  color: #FFFF38;
+  color: #ffff38;
   text-align: center;
   font-weight: 900;
   position: relative;
   font-family: "Comfortaa", sans-serif;
-
 }
 
 .section-header_new h2 {
-
   font-size: 36px;
-  color: #FFFF38;
+  color: #ffff38;
   text-align: center;
   font-weight: 700;
   position: relative;
   font-family: "Comfortaa", sans-serif;
-
 }
 
-
-.section-header_new  h3 {
+.section-header_new h3 {
   font-size: 30px;
-  color: #FFFF38;
+  color: #ffff38;
   text-align: center;
   font-weight: 500;
   position: relative;
   font-family: "Comfortaa", sans-serif;
 }
 
-
 .section-header_new h4 {
   font-size: 40px;
-  color: #FFFF38;
+  color: #ffff38;
   text-align: center;
   font-weight: 900;
   position: relative;
@@ -526,7 +524,7 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #FFFF38;
+  color: #ffff38;
   text-align: center;
   font-weight: 450;
   position: relative;
@@ -538,11 +536,11 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #EDEDED;
+  color: #ededed;
   width: 50%;
 }
 
-.section-header-light h3{
+.section-header-light h3 {
   font-size: 36px;
   color: #292929;
   text-align: center;
@@ -557,13 +555,13 @@ h6 {
 .section-bg {
   background: #911313;
 }
-.section-bg2{
-  background: #B12929;
+.section-bg2 {
+  background: #b12929;
 }
-.section-bg3{
+.section-bg3 {
   background: #292929;
 }
-.section-bg4{
+.section-bg4 {
   background: #292929;
 }
 
@@ -588,7 +586,7 @@ h6 {
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
-  color: #FFFF38;
+  color: #ffff38;
   margin-bottom: 5px;
 }
 
@@ -596,7 +594,7 @@ h6 {
   font-size: 16px;
   margin-left: 56px;
   color: #555186;
-  color: #EDEDED;
+  color: #ededed;
 }
 
 #why-us .counters {
@@ -680,8 +678,6 @@ h6 {
   color: #111;
 }
 
-
-
 /* Call To Action Section
 --------------------------------*/
 
@@ -753,14 +749,14 @@ h6 {
   padding: 6px 10px;
   font-size: 16px;
   line-height: 20px;
-  color: #EDEDED;
+  color: #ededed;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #FFFF38;
+  color: #ffff38;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -861,8 +857,18 @@ h6 {
   background: #42c3e8;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -1050,8 +1056,6 @@ h6 {
   background-color: #1bb1dc;
 }
 
-
-
 /* Pricing Section
 --------------------------------*/
 
@@ -1063,13 +1067,13 @@ h6 {
   border: 0;
   border-radius: 0px;
   box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   padding: 36px 0;
   position: relative;
 }
 
 #pricing .card:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -1199,7 +1203,7 @@ h6 {
 }
 
 #faq #faq-list a.collapsed {
-  color: #EDEDED;
+  color: #ededed;
 }
 
 #faq #faq-list a.collapsed i::before {
