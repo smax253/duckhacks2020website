@@ -220,8 +220,24 @@ h6 {
   background-size: cover;
 }
 
+#intro h1 {
+  color: #ffff38;
+}
+
+#intro h2 {
+  color: #ffff38;
+}
+
+#intro h3 {
+  color: #ffff38;
+}
+
+#catchphrase span {
+  color: #ffff38;
+}
+
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #ffff38;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -242,7 +258,6 @@ h6 {
   padding: 10px 32px;
   border-radius: 4px;
   transition: 0.5s;
-  color: #fff;
   background: #1bb1dc;
   color: #fff;
 }
@@ -253,18 +268,12 @@ h6 {
 }
 
 #intro-header {
-  color: black;
+  color: #ffff38;
 }
 
 #exciting-bg {
   position: absolute;
   z-index: 0;
-}
-
-#sun {
-  position: absolute;
-  /* z-index: -1; */
-  z-index: 999;
 }
 
 #ducks {
