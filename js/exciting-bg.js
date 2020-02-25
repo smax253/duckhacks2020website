@@ -13,7 +13,8 @@ const HALF_DUCKS_PER_ROW = 4
 
 const CODE_SNIPPETS = [
   'console.log("DUCKHACKS IS FOR THE KIDS")',
-  "function sayMyNameSayMyName() {\n\twhen(noOneIsAroundYou) {\n\tsay.babyILoveYou()\n}\n}"
+  // "function sayMyNameSayMyName() {\n\twhen(noOneIsAroundYou) {\n\tif(youAintRunninGame) {\nsay.babyILoveYou()}\n}\n}"
+  ""
 ]
 
 function preload() {
@@ -270,14 +271,3 @@ class Building {
     this.buildFrontWindows()
   }
 }
-
-function sayMyNameSayMyName() {
-  while (noOneIsAroundYou) {
-    you.aintRunningGame() ? say.babyILoveYou() : null
-  }
-}
-
-let array1 = ["apple", "orange"]
-let array2 = ["beagle", "labrador"]
-array1.push("banana")
-array2.pop()
