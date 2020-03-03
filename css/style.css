@@ -1535,7 +1535,9 @@ h6 {
 
 @media (max-width: 767px) {
   
-
+  #intro h1 {
+    font-size: 50px;
+  }
   #intro .container {
     height: auto !important;
   }
